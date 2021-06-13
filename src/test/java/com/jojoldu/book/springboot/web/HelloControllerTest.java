@@ -30,7 +30,7 @@ public class HelloControllerTest {
 
     @Test
     public void helloDto가_리턴된다() throws Exception {
-        String name = "hello";
+        String name = "hello123";
         int amount = 1000;
 
         mvc.perform(get("/hello/dto").param("name", name)
