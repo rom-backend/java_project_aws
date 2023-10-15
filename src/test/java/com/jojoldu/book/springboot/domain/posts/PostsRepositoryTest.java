@@ -32,7 +32,7 @@ public class PostsRepositoryTest {
         postsRepository.save(Posts.builder()
                                   .title(title)
                                   .content(content)
-                                  .author("abcCheck1@gmail.com")
+                                  .author("abcCheck3@gmail.com")
                                   .build());
 
         //when
